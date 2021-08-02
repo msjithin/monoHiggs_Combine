@@ -1,0 +1,70 @@
+# Search for Dark Matter using Higgs to tautau with dark matter particles
+# recoiling from higgs  
+imax * number of channels
+jmax * number of backgrounds
+kmax * number of nuisance parameters (sources of systematical uncertainties)
+
+shapes * * ../../datacard_shapes_v2.root etau/MASS/$PROCESS etau/MASS/$PROCESS_$SYSTEMATIC
+-----------------------------------------------------------------------------------------------------------------------------------------------
+bin bin1
+observation -1
+bin	                                            bin1        bin1	      bin1         bin1       bin1        bin1      bin1     bin1             
+process			                            signal	ZTTjet	      ZLLjet	   TT         jetFakes    STT       VVT      otherMC
+process		     	                            -1		1	      2		   3	      4	          5	    6        7
+rate		     	                            -1	        -1	      -1	   -1	      -1	  -1	    -1       -1
+------------------------------------------------------------------------------------------------------------------------------------------------
+CMS_FF_closure_OSSS_mvis_et_qcd_2017        shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_lpt_et_qcd                   shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_lpt_et_tt                    shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_lpt_et_w                     shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_lpt_xtrg_et_qcd_2017         shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_lpt_xtrg_et_tt_2017          shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_lpt_xtrg_et_w_2017           shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_mt_et_w_unc1_2017            shape   -           -             -            -          1           -         -        -
+CMS_FF_closure_mt_et_w_unc2_2017            shape   -           -             -            -          1           -         -        -
+CMS_jetFakesNorm_0jetlow_et_2017            lnN     -           -             -            -          1.05        -         -        -
+CMS_rawFF_et_qcd_unc1_2017                  shape   -           -             -            -          1           -         -        -
+CMS_rawFF_et_qcd_unc2_2017                  shape   -           -             -            -          1           -         -        -
+CMS_rawFF_et_tt_unc1_2017                   shape   -           -             -            -          1           -         -        -
+CMS_rawFF_et_tt_unc2_2017                   shape   -           -             -            -          1           -         -        -
+CMS_rawFF_et_w_unc1_2017                    shape   -           -             -            -          1           -         -        -
+CMS_rawFF_et_w_unc2_2017                    shape   -           -             -            -          1           -         -        -
+CMS_JER                                     shape   1           1             1            1          -           1         1        1
+CMS_JES                                     shape   1           1             1            1          -           1         1        1
+CMS_eFakeTau_2017                           lnN     -           -             1.15         -          -           -         -        -
+CMS_eff_t_againstemu_et_2017                lnN     1.01        1.01          -            1.01       -           1.01      1.01     1.01
+CMS_eff_e_2017                              lnN     1.02        1.02          1.02         1.02       -           1.02      1.02     1.02
+CMS_eletautrg_2017                          shape   1           1             1            1          -           1         1        1        
+CMS_htt_eff_b_2017                          lnN     1.005       1.005         1.005        -          -           -         -        1.005    
+CMS_htt_eff_b_TT_2017                       lnN     -           -             -            1.05       -           1.05      1.05     -        
+CMS_htt_stXsec                              lnN     -           -             -            -          -           1.05      -        -
+CMS_htt_tjXsec                              lnN     -           -             -            1.042      -           -         -        -
+CMS_htt_vvXsec                              lnN     -           -             -            -          -           -         1.05     -
+CMS_htt_zjXsec                              lnN     -           1.02          1.02         -          -           -         -        -
+CMS_Prefiring                               shape   1           1             1            1          -           1         1        1
+CMS_scale_e_Scale_2017                      shape   1           1             1            1          -           1         1        1
+CMS_scale_efaket_1prong1pizero_barrel_2017  shape   -           -             1            -          -           -         -        -
+CMS_scale_efaket_1prong1pizero_endcap_2017  shape   -           -             1            -          -           -         -        -
+CMS_scale_efaket_1prong_barrel_2017         shape   -           -             1            -          -           -         -        -
+CMS_scale_efaket_1prong_endcap_2017         shape   -           -             1            -          -           -         -        -
+CMS_scale_t_1prong1pizero_2017              shape   1           1             -            1          -           1         1        1
+CMS_scale_t_1prong_2017                     shape   1           1             -            1          -           1         1        1
+CMS_scale_t_3prong1pizero_2017              shape   1           1             -            1          -           1         1        1
+CMS_scale_t_3prong_2017                     shape   1           1             -            1          -           1         1        1
+CMS_singleeletrg_2017                       shape   1           1             1            1          -           1         1        1
+CMS_tauideff_pt30to35_2017                  shape   1           1             -            1          -           1         1        1
+CMS_tauideff_pt35to40_2017                  shape   1           1             -            1          -           1         1        1
+CMS_tauideff_ptgt40_2017                    shape   1           1             -            1          -           1         1        1
+lumi_Run2017                                lnN     1.02        1.02          1.02         1.02       -           1.02      1.02     1.02  
+lumi_XYfactorization                        lnN     1.008       1.008         1.008        1.008      -           1.008     1.008    1.008
+lumi_beamBeamDeflection                     lnN     1.004       1.004         1.004        1.004      -           1.004     1.004    1.004
+lumi_beamCurrentCalibration                 lnN     1.003       1.003         1.003        1.003      -           1.003     1.003    1.003
+lumi_dynamicBeta                            lnN     1.005       1.005         1.005        1.005      -           1.005     1.005    1.005
+lumi_ghostsAndSatellites                    lnN     1.001       1.001         1.001        1.001      -           1.001     1.001    1.001
+lumi_lengthScale                            lnN     1.003       1.003         1.003        1.003      -           1.003     1.003    1.003
+CMS_htt_boson_reso_met_Jet_2017	            shape   1		1	      1		   -	      -		  -	    -	     -
+CMS_htt_boson_scale_met_Jet_2017            shape   1           1             1            -          -           -         -        -
+CMS_scale_met_unclustered_2017              shape   -           -             -            1          -           1         1        -
+CMS_htt_dyShape         		    shape   -           -             1            -          -           -         -        -
+CMS_htt_ttbarShape           		    shape   -           -             -            1          -           -         -        -
+* autoMCStats 0.0
