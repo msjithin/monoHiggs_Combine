@@ -17,15 +17,15 @@
 
 #     ......................  new_out ..................
 combineTool.py -M T2W -i MH3_300_MH4_150.txt -o MH3_300_workspace.root  --parallel 4
-combineTool.py -M Impacts -d MH3_300_workspace.root -m 300 --doInitialFit --rMin -20 --rMax 20 --robustFit 1 --expectSignal=0 --parallel 24
-combineTool.py -M Impacts -d MH3_300_workspace.root -m 300 --robustFit 1 --rMin -20 --rMax 20  --doFits --expectSignal=0 --cminDefaultMinimizerType=Minuit2 --cminDefaultMinimizerAlgo=Migrad --X-rtd FITTER_NEW_CROSSING_ALGO --parallel 24
+combineTool.py -M Impacts -d MH3_300_workspace.root -m 300 --doInitialFit --rMin -20 --rMax 20 -t -1 --robustFit 1 --expectSignal=0 --parallel 24
+combineTool.py -M Impacts -d MH3_300_workspace.root -m 300 --robustFit 1 --rMin -20 --rMax 20  -t -1 --doFits --expectSignal=0 --cminDefaultMinimizerType=Minuit2 --cminDefaultMinimizerAlgo=Migrad --X-rtd FITTER_NEW_CROSSING_ALGO --parallel 24
 combineTool.py -M Impacts -d MH3_300_workspace.root -m 300 -o impacts_MH3_300.json
 plotImpacts.py -i impacts_MH3_300.json -o impacts_MH3_300
 
 
 
 combineTool.py -M T2W -i MH3_200_MH4_100.txt -o MH3_200_workspace.root  --parallel 4
-combineTool.py -M Impacts -d MH3_200_workspace.root -m 200 --doInitialFit --rMin -20 --rMax 20 --robustFit 1 --expectSignal=0 --parallel 24
-combineTool.py -M Impacts -d MH3_200_workspace.root -m 200 --robustFit 1 --rMin -20 --rMax 20  --doFits --expectSignal=0 --cminDefaultMinimizerType=Minuit2 --cminDefaultMinimizerAlgo=Migrad --X-rtd FITTER_NEW_CROSSING_ALGO --parallel 24
+combineTool.py -M Impacts -d MH3_200_workspace.root -m 200 --doInitialFit --rMin -20 --rMax 20 -t -1 --robustFit 1 --expectSignal=0 --parallel 24
+combineTool.py -M Impacts -d MH3_200_workspace.root -m 200 --robustFit 1 --rMin -20 --rMax 20 -t -1 --doFits --expectSignal=0 --cminDefaultMinimizerType=Minuit2 --cminDefaultMinimizerAlgo=Migrad --X-rtd FITTER_NEW_CROSSING_ALGO --parallel 24
 combineTool.py -M Impacts -d MH3_200_workspace.root -m 200 -o impacts_MH3_200.json
 plotImpacts.py -i impacts_MH3_200.json -o impacts_MH3_200
