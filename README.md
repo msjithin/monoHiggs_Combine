@@ -11,12 +11,17 @@ scram b
 
 Datacards are created by .cpp files in bin/
 
-For Zprime baryonic
+For Zprime baryonic  
 `bash run_zpb_full.sh `
 
-For 2HDMa do 
+For 2HDMa do   
 `bash run_new2hdma.sh`
 
 
+
+Once datacards are created, 
+cd to the directory  
+then  do ,  
+`bash get_limits.sh`
 
 
