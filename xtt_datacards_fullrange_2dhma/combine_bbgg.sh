@@ -1,0 +1,34 @@
+
+
+signal_array=("2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_300" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_400" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500" "2HDMa_bbgg_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_250" "2HDMa_bbgg_sinp_0p3_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_100" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_300" "2HDMa_bbgg_sinp_0p4_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_350" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_350" "2HDMa_bbgg_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_350" "2HDMa_bbgg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_400" "2HDMa_bbgg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_250" "2HDMa_bbgg_sinp_0p9_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_100" "2HDMa_bbgg_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_100" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_350" "2HDMa_bbgg_sinp_0p6_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_300" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_350" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_500" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_350" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_300" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_100" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350" "2HDMa_bbgg_sinp_0p7_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_250" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_500" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p5_tanb_1p0_mXd_10_MH3_600_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_200" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400" "2HDMa_bbgg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_150" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_300" "2HDMa_bbgg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_150")
+
+get_combineCards(){
+        
+    for i in "${signal_array[@]}"
+    do
+	echo $i
+	#sh add_auto_MC_Stat.sh $i
+	cd $i
+	FILE1="xtt_bb_cmb_1_13TeV_201718.txt"
+	FILE2="xtt_gg_cmb_1_13TeV_201718.txt"
+	if [[ -f "$FILE1" ]] && [[ -f "$FILE2" ]]
+	then
+	    echo "$FILE1  $FILE2 exists."
+	    combineCards.py xtt_bb_cmb_1_13TeV_201718.txt xtt_gg_cmb_1_13TeV_201718.txt >  xtt_cmb_1_13TeV_201718.txt
+	elif [[ -f "$FILE1" ]] 
+	then
+	    echo "ONLY $FILE1  exists."
+	    cp $FILE1 xtt_cmb_1_13TeV_201718.txt
+	else
+	    echo "ONLY $FILE2  exists."
+	    cp $FILE2 xtt_cmb_1_13TeV_201718.txt
+	fi
+	cd ..
+    done   
+}
+
+
+
+get_combineCards
+
+
