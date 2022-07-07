@@ -1,4 +1,8 @@
 ## Combine limit extraction and impacts for monoHiggs
+
+
+To setup combine area
+
 ```
 scram project CMSSW CMSSW_10_2_13   
 cd CMSSW_10_2_13/src   
@@ -7,10 +11,21 @@ git clone https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsA
 #### IMPORTANT: Checkout the recommended tag on the link above  
 git clone https://github.com/cms-analysis/CombineHarvester.git CombineHarvester    
 scram b  
-  
+```
+
+
+TO clone this repo
+```
 cd CombineHarvester/CombineTools
 git clone https://github.com/msjithin/monoHiggs_combine.git
 ```  
+
+If the above line doesnt work
+```
+git init .
+git remote add origin https://github.com/msjithin/monoHiggs_combine.git
+git pull origin master
+```
 
 Datacards are created by .cpp files in bin/
 
