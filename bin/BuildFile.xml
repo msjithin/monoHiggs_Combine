@@ -25,6 +25,8 @@
 <bin file="MonoHiggs_V1.cpp" name="MonoHiggs_V1"></bin>
 <bin file="MonoHiggs_V2.cpp" name="MonoHiggs_V2"></bin>
 <bin file="MonoHiggs_V3.cpp" name="MonoHiggs_V3"></bin>
+<bin file="MonoHiggs_ZpB.cpp" name="MonoHiggs_ZpB"></bin>
+<bin file="MonoHiggs_2HDMa.cpp" name="MonoHiggs_2HDMa"></bin>
 <bin file="MonoHiggs_V3_0to200.cpp" name="MonoHiggs_V3_0to200"></bin>
 <bin file="MonoHiggs_V3_blinded.cpp" name="MonoHiggs_V3_blinded"></bin>
 <bin file="XTT_CR.cpp" name="XTT_CR"></bin>
